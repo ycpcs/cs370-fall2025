@@ -15,7 +15,7 @@ We will be using [CMake](https://cmake.org) to configure our build environment f
 
 **BE SURE YOU HAVE SET UP THE ENVIRONMENT BY FOLLOWING THE** [CS370\_Setup](../CS370_Setup.html) **INSTRUCTIONS**
 
-Download [CS370\_Lab00.zip](src/CS370_Lab00.zip), saving it into the **CS370\_Fa24** directory.
+Download [CS370\_Lab00.zip](src/CS370_Lab00.zip), saving it into the **CS370\_Fa25** directory.
 
 Double-click on **CS370\_Lab00.zip** and extract the contents of the archive into a subdirectory called **CS370\_Lab00**
 

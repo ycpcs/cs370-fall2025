@@ -9,11 +9,11 @@ The image is represented as a texture map which has normalized extents (0,0) in 
 
 ## Getting Started
 
-Download [CS370\_Lab13.zip](src/CS370_Lab13.zip), saving it into the **CS370\_Fa24** directory.
+Download [CS370\_Lab13.zip](src/CS370_Lab13.zip), saving it into the **CS370\_Fa25** directory.
 
 Double-click on **CS370\_Lab13.zip** and extract the contents of the archive into a subdirectory called **CS370\_Lab13**
 
-Open CLion, select **CS370\_Fa24** from the main screen (you may need to close any open projects), and open the **CMakeLists.txt** file in this directory (**not** the one in the **CS370\_Lab13** subdirectory). Uncomment the line
+Open CLion, select **CS370\_Fa25** from the main screen (you may need to close any open projects), and open the **CMakeLists.txt** file in this directory (**not** the one in the **CS370\_Lab13** subdirectory). Uncomment the line
 
 ```cpp
 	add_subdirectory("CS370_Lab13" "CS370_Lab13/bin")
@@ -23,11 +23,11 @@ Finally, select **Reload changes** which should build the project and add it to 
 
 #### Solution
 
-Download [CS370\_Lab13\_Solution.zip](sol/CS370_Lab13_Solution.zip), saving it into the **CS370\_Fa24** directory.
+Download [CS370\_Lab13\_Solution.zip](sol/CS370_Lab13_Solution.zip), saving it into the **CS370\_Fa25** directory.
 
 Double-click on **CS370\_Lab13\_Solution.zip** and extract the contents of the archive into a subdirectory called **CS370\_Lab13\_Solution**
 
-Open CLion, select **CS370\_Fa24** from the main screen (you may need to close any open projects), and open the **CMakeLists.txt** file in this directory (**not** the one in the **CS370\_Lab13\_Solution** subdirectory). Uncomment the line
+Open CLion, select **CS370\_Fa25** from the main screen (you may need to close any open projects), and open the **CMakeLists.txt** file in this directory (**not** the one in the **CS370\_Lab13\_Solution** subdirectory). Uncomment the line
 
 ```cpp
 	add_subdirectory("CS370_Lab13_Solution" "CS370_Lab13_Solution/bin")
@@ -246,3 +246,17 @@ To quit the program simply close the window.
 Congratulations, you have now written an application with texture mapping.
 
 Next we will investigate how to create scenes using a scene graph data structure.
+
+### Stereo 3D
+
+A more immersive 3D effect can be created for specialized stereoscopic hardware (that supports full-frame side-by-side format). All that is required is to render the scene twice with slightly offset cameras placing the left image in the left half of the frame buffer and the right image in the right half of the frame buffer via adjusting the viewport. Note, all the work is done in **display()**, so **no** changes need to be made as far as the rendering of the scene! Here is a sample solution 
+
+[CS370\_Lab13\_3D\_Solution.zip](sol/CS370_Lab13_3D_Solution.zip)
+
+You will need to uncomment the following line in your **CMakeLists.txt** file in the **CS370\_Fa25** directory (**not** the one in the **CS370\_Lab13\_3D\_Solution** subdirectory).
+
+```cpp
+	add_subdirectory("CS370_Lab13_3D_Solution" "CS370_Lab13_3D_Solution/bin")
+```
+
+For this program, 'M' toggles stereo mode and the left/right arrow keys adjust the eye separation (to achieve the best 3D effect).
