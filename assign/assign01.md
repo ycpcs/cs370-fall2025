@@ -3,7 +3,7 @@ layout: default
 title: "Assignment 1: Don Quixote"
 ---
 
-**Written Questions Due Tues, Sept 16th by 12:30 PM** (in class) Submit a **graded** pdf to Canvas by **Thursday, Sept 18th**.
+**Written Questions Due Tues, Sept 16th by 2:00 PM** (in class) Submit a **graded** pdf to Canvas by **Thursday, Sept 18th**.
 
 **Program Due: Wednesday, Sept 17th by 11:59 PM** Late assignments will be penalized 20 points per day.
 

@@ -3,7 +3,7 @@ layout: default
 title: "Assignment 2: Train Kept A Rollin' (hopefully not all night long)"
 ---
 
-**Written Questions Due Tues, Sept 25th by 12:30 PM** (in class) Submit a **graded** pdf to Canvas by **Thursday, Sept 27th**.
+**Written Questions Due Tues, Sept 25th by 2:00 PM** (in class) Submit a **graded** pdf to Canvas by **Thursday, Sept 27th**.
 
 **Program Due:**
 
@@ -90,7 +90,7 @@ Write a program that draws a 3D "train" scene using OpenGL. A sample executable 
 -   Train body: 10 points
 -   Dynamic orthographic camera (3rd person): 5 points
 
-> <img src="images/assign02/RollinTrain_MS1.png" alt="Rollin Train Milestone 1" height="500"/>
+> <img src="images/assign02/RollinTrain_MS1.png" alt="Rollin Train Milestone 1" width="800"/>
 
 **Milestone 2** - 50 points
 
