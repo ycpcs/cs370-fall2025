@@ -90,7 +90,9 @@ Write a program that draws a 3D "train" scene using OpenGL. A sample executable 
 -   Train body: 10 points
 -   Dynamic orthographic camera (3rd person): 5 points
 
-> <img src="images/assign02/RollinTrain_MS1.png" alt="Rollin Train Milestone 1" width="800"/>
+|-------|-------|
+|<img src="images/assign02/MS1_Iso.png" alt="Rollin Train Milestone 1" height="200"/>|<img src="images/assign02/MS1_Rear_.png" alt="Rollin Train Milestone 1" height="200"/>|
+| Isomorphic view | Rear View |
 
 **Milestone 2** - 50 points
 
