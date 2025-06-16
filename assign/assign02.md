@@ -90,11 +90,11 @@ Write a program that draws a 3D "train" scene using OpenGL. A sample executable 
 -   Train body: 10 points
 -   Dynamic orthographic camera (3rd person): 5 points
 
-| | |
-|<img src="images/assign02/MS1_Iso.png" alt="Milestone 1 Iso View" height="200"/>|<img src="images/assign02/MS1_Rear.png" alt="Milestone 1 Rear View" height="200"/>|
-| <p style="text-align: center;">Isomorphic View</p> | <p style="text-align: center;">Rear View</p> |
-|<img src="images/assign02/MS1_Top.png" alt="Milestone 1 Top View" height="200"/>|<img src="images/assign02/MS1_Side.png" alt="Milestone 1 Side View" height="200"/>|
-| <p style="text-align: center;">Top View</p> | <p style="text-align: center;">Side View</p> |
+| - | - |
+|<img src="images/assign02/MS1_Iso.png" alt="Milestone 1 Iso View" height="250"/>|<img src="images/assign02/MS1_Rear.png" alt="Milestone 1 Rear View" height="250"/>|
+| Isomorphic View | Rear View |
+|<img src="images/assign02/MS1_Top.png" alt="Milestone 1 Top View" height="250"/>|<img src="images/assign02/MS1_Side.png" alt="Milestone 1 Side View" height="250"/>|
+| Top View | >Side View |
 
 **Milestone 2** - 50 points
 
