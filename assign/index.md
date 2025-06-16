@@ -11,7 +11,7 @@ All programming portions (except the final project) should be uploaded to [Marmo
 
 > Assignment | File | Written Due | Program Due |
 > ---------- | ---- | ----------- | ----------- |
-> [Assignment 1: Don Quixote](assign01.html)       | [CS370\_Assign01\_Fa24.zip](src/CS370_Assign01_Fa24.zip) | **Sept 16**  | **Sept 17** |
+> [Assignment 1: Don Quixote](assign01.html)       | [CS370\_Assign01\_Fa25.zip](src/CS370_Assign01_Fa25.zip) | **Sept 16**  | **Sept 17** |
 
 
 
