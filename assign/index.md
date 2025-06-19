@@ -14,6 +14,7 @@ All programming portions (except the final project) should be uploaded to [Marmo
 > [Assignment 1: Don Quixote](assign01.html)       | [CS370\_Assign01\_Fa25.zip](src/CS370_Assign01_Fa25.zip) | **Sept 16**  | **Sept 17** |
 > [Assignment 2: Rollin Train](assign02.html)      | [CS370\_Assign02\_Fa25.zip](src/CS370_Assign02_Fa25.zip) | **Sept 25** | **Milestone 1: Sept 22** <br /> **Milestone 2: Sept 29** | 
 > [Assignment 3: LimeLight](assign03.html)         | [CS370\_Assign03\_Fa25.zip](src/CS370_Assign03_Fa25.zip) | **Oct 23**  | **Milestone 1: Oct 10** <br /> **Milestone 2: Oct 27** |
+> [Assignment 4: WalkingMan](assign04.html)        | [CS370\_Assign04\_Fa25.zip](src/CS370_Assign04_Fa25.zip) | **Nov 18**  | **Milestone 1: Nov 10** <br /> **Milestone 2: Nov 19** |
 
 
 
