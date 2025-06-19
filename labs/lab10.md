@@ -43,9 +43,11 @@ Another type of light source that we may wish to add to our scenes is a *point l
 
 - Add code to **build\_lights()** to create a **LightProperties** variable named *whitePointLight* that is a *POINT* light located at (3.0f, 1.0f, 3.0f, 1.0f) using (0.0f, 0.0f, 0.0f, 1.0f) for the ambient, (1.0f, 1.0f, 1.0f, 1.0f) for the diffuse, and (1.0f, 1.0f, 1.0f, 1.0f) for the specular. **Note:** Don't forget to also add the pad to the structure.
 
-- Add code to **build\_lights()** to add the *whitePointLight* to the *Lights* vector using the **push\_back()** method.
+- Add code to **build\_lights()** to set the *whitePointLight* light in the **Lights** vector at the *WhitePointLight* index (be sure to do this *after* the *resize()* call)
 
-- Add code to **build\_lights()** to set the *numLights* variable to the size of the *Lights* vector using the **.size()** method. **Note:** There is also a global *lightOn[]* array which can be used to toggle each light on/off. By default we will start with all the lights turned on.
+- Add code to **build\_lights()** to set the **WhitePointLight** element of the **lightOn** array to 1
+
+**Note:** There is also a global *lightOn[]* array which can be used to toggle each light on/off. By default we will start with all the lights turned on.
 
 ## Spot Lights
 
@@ -57,9 +59,15 @@ Thus to create a spotlight we need to specify the position of the light (again a
 
 ### Tasks
 
+- At the top of the code, add a new symbolic constant called **GreenSpotLight** to the **LightNames** enum *before* the *NumLights* element (note, this will allow the *NumLights* element to represent the number of materials being used).
+
 - Add code to **build\_lights()** to create a **LightProperties** variable named *greenSpotLight* that is a *SPOT* light located at (0.0f, 4.0f, 0.0f, 1.0f) pointing in the (0.0f, -1.0f, 0.0f, 0.0f) direction (directly above the object pointing straight down) with a cutoff angle of 20.0f and an exponent of 20.0f using (0.0f, 0.0f, 0.0f, 1.0f) for the ambient, (0.0f, 1.0f, 0.0f, 1.0f) for the diffuse, and (1.0f, 1.0f, 1.0f, 1.0f) for the specular. **Note:** Don't forget to also add the pad to the structure.
 
-- Add code to **build\_lights()** to add the *greenSpotLight* to the *Lights* vector using the **push\_back()** method.
+- Add code to **build\_lights()** to set the *greenSpotLight* light in the **Lights** vector at the *GreenSpotLight* index (be sure to do this *after* the *resize()* call)
+
+- Add code to **build\_lights()** to set the **GreenSpotLight** element of the **lightOn** array to 1
+
+- Add code to **key\_callback()** to *toggle* the **lightOn** array at index **GreenSpotLight** between 0 and 1 whenever the "L" key is pressed. This will allow each light to be turned on/off individually.
 
 Once everything is working, consider commenting out the sphere object and experimenting with different cutoff angles and exponents to see the effect it has on the appearance of the spotlight.
 

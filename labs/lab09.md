@@ -70,15 +70,32 @@ MaterialProperties brass = {
 };
 ```
 
+We can then add the created materials to the **Materials** vector (which will be used to place them into the buffer for the shader) using the corresponding symbolic constants defined in the **MaterialNames** enum at the top of the code as an *index* into the vector (**note:** this structure allows for materials to be added in any order). For example, 
+
+```cpp
+Materials[Brass] = brass;
+};
+```
+
+New materials can then be created and added by:
+
+1. Adding a new symbolic constant name to the **MaterialNames** enum.
+2. Defining a new **MaterialProperties** struct for the material component values.
+3. Adding the material to the **Materials** vector using the symbolic constant.
+
 Once we have created all our materials, similar to placing data in other buffers, we will create, bind, and load the data into a *uniform* buffer for our materials using the **GL\_UNIFORM\_BUFFER** type.
 
 ### Tasks
 
 - Add code to **build\_materials()** to create a **MaterialProperties** variable named *brass* using the values given above
 
+- Add code to **build\_materials()** to set the *brass* material in the **Materials** vector at the *Brass* index (be sure to do this *after* the *resize()* call)
+
+- At the top of the code, add a new symbolic constant called **RedPlastic** to the **MaterialNames** enum *before* the *NumMaterials* element (note, this will allow the *NumMaterials* element to represent the number of materials being used).
+
 - Add code to **build\_materials()** to create a **MaterialProperties** variable named *redPlastic* using (0.3f, 0.0f, 0.0f, 1.0f) for the ambient, (0.6f, 0.0f, 0.0f, 1.0f) for the diffuse, (0.8f, 0.6f, 0.6f, 1.0f) for the specular, and 32.0f for the shininess. **Note:** Don't forget to also add the pad to the structure.
 
-- Add code to **build\_materials()** to add the two materials to the *Materials* vector using the **push\_back()** method.
+- Add code to **build\_materials()** to set the *redPlastic* material in the **Materials** vector at the *RedPlastic* index (be sure to do this *after* the *resize()* call)
 
 **Note:** Notice how the data is then loaded into a **GL\_UNIFORM\_BUFFER** in a similar fashion to other buffers.
 
@@ -118,11 +135,30 @@ LightProperties whiteLight = {
 };
 ```
 
+Just like materials, we can then add the created lights to the **Lights** vector (which will be used to place them into the buffer for the shader) using the corresponding symbolic constants defined in the **LightNames** enum at the top of the code as an *index* into the vector (**note:** this structure allows for lights to be added in any order). Then we will turn the light on (if desired) by setting the same element in the **lightOn** array to 1 (true). For example, 
+
+```cpp
+Lights[WhiteLight] = whiteLight;
+lightOn[WhiteLight] = 1;
+};
+```
+
+New lights can then be created and added by:
+
+1. Adding a new symbolic constant name to the **LightNames** enum.
+2. Defining a new **LightProperties** struct for the light component values.
+3. Adding the light to the **Lights** vector using the symbolic constant.
+4. Turning the light on by setting the appropriate element in the **lightOn** array to 1.
+
+Once we have created all our lights, similar to placing data in other buffers, we will create, bind, and load the data into a *uniform* buffer for our lights using the **GL\_UNIFORM\_BUFFER** type.
+
 ### Tasks
 
 - Add code to **build\_lights()** to create a **LightProperties** variable named *whiteLight* using the values given above
 
-- Add code to **build\_lights()** to add the light to the *Lights* vector using the **push\_back()** method.
+- Add code to **build\_lights()** to set the *whiteLight* light in the **Lights** vector at the *WhiteLight* index (be sure to do this *after* the *resize()* call)
+
+- Add code to **build\_lights()** to set the **WhiteLight** element of the **lightOn** array to 1
 
 **Note:** Notice how the data is then loaded into a **GL\_UNIFORM\_BUFFER** in a similar fashion to other buffers.
 

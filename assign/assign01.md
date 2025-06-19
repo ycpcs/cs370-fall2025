@@ -109,7 +109,7 @@ When you are done, submit the assignment to the Marmoset server using the Termin
 
 <pre>
 % <b>cd CS370_Assign01_Fa25</b>
-CS370_Fa24/CS370_Assign01_Fa25 % <b>make submit</b>
+CS370_Fa25/CS370_Assign01_Fa25 % <b>make submit</b>
 </pre>
 
 Enter your [Marmoset](https://cs.ycp.edu/marmoset) username and password, if successful you should see

@@ -39,9 +39,13 @@ One common place to set the alpha channel is when creating a material. Thus we c
 
 ### Tasks
 
+- At the top of the code, add a new symbolic constant called **RedAcrylic** to the **MaterialNames** enum *before* the *NumMaterials* element (note, this will allow the *NumMaterials* element to represent the number of materials being used).
+
 - Add code to **build\_materials()** to create a *redAcrylic* translucent material with alpha values 0.5f. **Hint:** Simply copy the *redPlastic* material as a starting point.
 
-- Add code to **build\_materials()** to add the *redAcrylic* material into the *Materials* vector using the **push\_back()** method
+- Add code to **build\_materials()** to set the *redAcrylic* material in the **Materials** vector at the *RedAcrylic* index (be sure to do this *after* the *resize()* call)
+
+- Add code to **render\_scene()** to draw the translucent cylinder using the **draw\_mat\_object()** function with the **Cone** model and the **RedAcrylic** material.
 
 Try experimenting with different alpha values to see what effect it has on the translucency of the object.
 
@@ -103,7 +107,7 @@ Hence the typical process will be to render all **opaque** objects first, then d
 
 ### Tasks
 
-- Add code to **render\_scene()** to disable depth buffer updating when rendering the translucent cone. **Note:** Be sure to re-enable depth buffer updating after rendering the cone.
+- Add code to **render\_scene()** to disable depth buffer updating when rendering *only the translucent cone*. **Note:** Be sure to re-enable depth buffer updating after rendering the cone.
 
 - Add code to **main()** to animate the torus when the **roll\_torus** flag is true. **Hint:** Simply update the **torus\_theta** variable by **TORUS\_STEP** multiplied by **dT** to have the update time based. Then make sure the angle remains within the bounds of 0 to 360 degrees.
 

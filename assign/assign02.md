@@ -3,7 +3,7 @@ layout: default
 title: "Assignment 2: Train Kept A Rollin' (hopefully not all night long)"
 ---
 
-**Written Questions Due Tues, Sept 25th by 2:00 PM** (in class) Submit a **graded** pdf to Canvas by **Thursday, Sept 27th**.
+**Written Questions Due: Tuesday, Sept 25th by 2:00 PM** (in class) Submit a **graded** pdf to Canvas by **Thursday, Sept 27th**.
 
 **Program Due:**
 
@@ -92,7 +92,7 @@ Write a program that draws a 3D "train" scene using OpenGL. A sample executable 
 
 | - | - |
 |<img src="images/assign02/MS1_Iso.png" alt="Milestone 1 Iso View" height="250"/>|<img src="images/assign02/MS1_Rear.png" alt="Milestone 1 Rear View" height="250"/>|
-|             Isomorphic View | Rear View |
+| Isomorphic View | Rear View |
 |<img src="images/assign02/MS1_Top.png" alt="Milestone 1 Top View" height="250"/>|<img src="images/assign02/MS1_Side.png" alt="Milestone 1 Side View" height="250"/>|
 | Top View | Side View |
 
@@ -123,7 +123,7 @@ When you are done, submit the assignment to the Marmoset server using the Termin
 
 <pre>
 $ <b>cd CS370_Assign02_Fa25</b>
-CS370_Fa23/CS370_Assign02_Fa25
+CS370_Fa25/CS370_Assign02_Fa25
 $ <b>make submit_ms1</b>
 </pre>
 
@@ -131,7 +131,7 @@ or
 
 <pre>
 $ <b>cd CS370_Assign02_Fa25</b>
-CS370_Fa23/CS370_Assign02_Fa25
+CS370_Fa25/CS370_Assign02_Fa25
 $ <b>make submit_ms2</b>
 </pre>
 
