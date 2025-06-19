@@ -40,17 +40,4 @@ Welcome to the website for CS 370, Computer Graphics Programming I, at York Coll
 * **Nov 18** - [Assignment 4 Written](assign/assign04.html) Due - upload *self-graded* .pdf to Canvas by **Nov 20**.
 * **Nov 19** - [Assignment 4 Milestone 2 Program](assign/assign04.html) Due.
 * **Nov 20 - EXAM III**
-
-<!--
-* **Oct 11** - [Assignment 3 Milestone 1 Program](assign/assign03.html) Due.
-* **Oct 15 - NO CLASS - FALL BREAK**
-* **Oct 17** - [Final Project](assign/project.html), Milestone 1 Demo.
-* **Oct 24** - [Assignment 3 Written](assign/assign03.html) Due - upload *self-graded* .pdf to Canvas by **Oct 26**.
-* **Oct 28** - [Assignment 3 Milestone 2 Program](assign/assign03.html) Due.
-* **Oct 29 - EXAM II**
-* **Nov 11** - [Assignment 4 Milestone 1 Program](assign/assign04.html) Due.
-* **Nov 13** - [Final Project](assign/project.html), Milestone 2 Demo.
-* **Nov 19** - [Assignment 4 Written](assign/assign04.html) Due - upload *self-graded* .pdf to Canvas by **Nov 21**.
-* **Nov 20** - [Assignment 4 Milestone 2 Program](assign/assign04.html) Due.
-* **Nov 21 - EXAM III**
--->
+* **Dec 11 - FINAL PROJECT DEMOS - 12:45PM**
