@@ -15,7 +15,7 @@ Instructor(s):
 
 Office Hours (KEC117A): 
 
-Dr. Babcock: TBD, or by appointment
+Dr. Babcock: M 11AM-1PM, T 9-11AM, R 10-11AM, F 10AM-12PM, or by appointment
 
 Class times:
 
