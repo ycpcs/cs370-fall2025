@@ -35,7 +35,7 @@ Next select **File -> Settings** from the menubar.
 
 In the **Settings** dialog, select the **Tools->Terminal** option, then replace what is in the **Shell path:** setting with
 
-    "C:\cygwin64\bin\sh" -lic 'cd "${OLDPWD-.}"; bash'
+    C:\cygwin64\bin\sh.exe -lic "cd \"${OLDPWD-.}\"; bash"
 
 > <img src="img/CLionTerminal.png" alt="CLion Tools Settings Window" height="500"/>
 
