@@ -134,3 +134,18 @@ To quit the program simply close the window.
 Congratulations, you have now written an application incorporating multiple textures.
 
 Next we will investigate how to apply multiple textures to accomplish bump mapping.
+
+### Shadows with Textures
+
+With multitexturing, it is possible to combining shadow mapping with textures (since the shadow map is stored in a texture). Here is a sample solution
+
+[CS370\_Lab17\_ShadowTexture\_Solution.zip](sol/CS370_Lab17_ShadowTexture_Solution.zip)
+
+You will need to uncomment the following line in your **CMakeLists.txt** file in the **CS370\_Fa25** directory (**not** the one in the **CS370\_Lab17\_ShadowTexture\_Solution** subdirectory).
+
+```cpp
+	add_subdirectory("CS370_Lab17_ShadowTexture_Solution" "CS370_Lab17_ShadowTexture_Solution/bin")
+```
+
+> <img src="images/lab17/shadowTextureMesh.png" alt="Shadow Texture Mesh Window" height="500"/>
+
